@@ -1,0 +1,62 @@
+.primary {
+  margin-top: 100px;
+}
+
+.primary__wrap {
+  padding: 70px 40px 112px;
+}
+
+.primary-slogan {
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.primary__btn {
+  margin-top: 51px;
+  padding: 11px 30px;
+}
+
+.primary__wrap {
+  background-image: url('../img/person-shawarma.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+@media (max-width: 1200px) {
+  .primary__wrap {
+    padding: 70px 40px 95px;
+  }
+
+  .primary-slogan {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .primary__btn {
+    margin-top: 100px;
+    padding: 14px 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .primary__wrap {
+    padding: 60px 20px 0;
+  }
+
+  .primary-slogan {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .primary__btn {
+    margin-top: 229px;
+    margin-left: auto;
+  }
+
+  .primary__wrap {
+    background-position: calc(100% - 20px) calc(100% - 50px);
+    background-size: 180px;
+  }
+}
+

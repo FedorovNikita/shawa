@@ -1,0 +1,28 @@
+.our-clients__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrows__prev,
+.arrows__next {
+  cursor: pointer;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider-item {
+  margin: 0 10px;
+}

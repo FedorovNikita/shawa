@@ -1,0 +1,104 @@
+$main-background: #F7F7F7;
+$main-color-text: #000000;
+$bg-btn: #E63E00;
+$text-btn: #FFFFFF;
+
+@import "fonts.scss";
+
+$ubuntuRegular: 'ubunturegular', Arial, sans-serif;
+$ubuntuMedium: 'ubuntumedium', Arial, sans-serif;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: $ubuntuRegular;
+  background-color: $main-background;
+  color: $main-color-text;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.btn {
+  display: block;
+  background-color: $bg-btn;
+  font-family: $ubuntuMedium;
+  font-size: 24px;
+  line-height: 28px;
+  color: $text-btn;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.title {
+  position: relative;
+  margin-left: 40px;
+  font-family: $ubuntuMedium;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  &::before {
+    position: absolute;
+    top: -4px;
+    left: -20px;
+    content: '';
+    display: block;
+    height: 50px;
+    width: 5px;
+    background-color: #E63E00;
+  }
+}
+
+
+
+// .title {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   margin: 0;
+//   font-family: $ubuntuMedium;
+//   font-size: 48px;
+//   line-height: 55px;
+//   text-align: center;
+// }
+
+// .title::before,
+// .title::after {
+//   content: '';
+//   margin: 0 20px;
+//   height: 4px;
+//   width: 30px;
+//   background-color: #828282;
+// }
+
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@import "header.scss";
+@import "main-nav.scss";
+@import "primary.scss";
+@import "our-clients.scss";

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shawa</title>
+  <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__wrap">
+      <picture class="header__logo">
+        <source srcset="img/logo-shawarma-mobile.png" media="(max-width: 767px)">
+        <img src="img/logo-shawarma.png" alt="Логотип компании по производству шаурмы - Shawarma">
+      </picture>
+      <nav class="header__main-nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Каталог</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Заказать</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">Клиенты</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="" class="main-nav__link">О нас</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__hamburger hamburger">Открыть/закрыть меню</button>
+    </div>
+  </header>
+  <section class="primary">
+    <div class="container primary__wrap">
+      <strong class="primary-slogan">
+        Лучшая шаурма в городе.<br>
+        Доставим за 15 минут<br>
+        либо заказ за наш счет
+      </strong>
+      <button class="primary__btn btn">
+        Проверить
+      </button>
+    </div>
+  </section>
+  <section class="our-clients our-clients__slider">
+    <div class="container">
+      <div class="our-clients__header">
+        <h2 class="our-clients__title title">Наши клиенты</h2>
+        <div class="slider__arrows">
+          <img src="img/arrow-left.png" class="arrows__prev" alt="Стрелка для переключения слайдера влево">
+          <img src="img/arrow-right.png" class="arrows__next" alt="Стрелка для переключения слайдера вправо">
+        </div>
+      </div>
+      <ul class="slider">
+        <li class="slider-item">
+          <img src="img/guest-1.jpg" class="slider__image" alt="">
+        </li>
+        <li class="slider-item">
+          <img src="img/guest-2.jpg" class="slider__image" alt="">
+        </li>
+        <li class="slider-item">
+          <img src="img/guest-3.jpg" class="slider__image" alt="">
+        </li>
+        <li class="slider-item">
+          <img src="img/guest-4.jpg" class="slider__image" alt="">
+        </li>
+        <li class="slider-item">
+          <img src="img/guest-1.jpg" class="slider__image" alt="">
+        </li>
+
+        <!-- <li class="slider__item">1</li>
+        <li class="slider__item">2</li>
+        <li class="slider__item">3</li>
+        <li class="slider__item">4</li>
+        <li class="slider__item">5</li>
+        <li class="slider__item">6</li> -->
+      </ul>
+    </div>
+  </section>
+
+  <script src="script/libs.min.js"></script>
+  <script src="script/main.js"></script>
+</body>
+</html>
